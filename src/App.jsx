@@ -1,9 +1,10 @@
+import Header from "./header"
 
 function App() {
 
   return (
     <>
-      <h1>Vite + React</h1>
+      <Header/>
     </>
   )
 }
