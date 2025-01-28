@@ -1,5 +1,5 @@
 import Cards from './components/Cards'
-import Header from './Header'
+import Header from './components/Header'
 
 function App() {
 
