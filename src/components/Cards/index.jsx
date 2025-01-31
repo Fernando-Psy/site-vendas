@@ -12,13 +12,21 @@ const Cards = () => {
             produto: 'Produto 1',
             descricao: 'Descubra como transformar o TDAH de desafio em potencial - aprenda a direcionar essa mente única para alcançar resultados extraordinários! Clique e comece sua jornada de transformação agora',
             nomeBotao: 'Conferir →',
-            link: 'https://dhumano.com.br/'
+            link: 'https://dhumano.com.br/',
+        },
+        {
+            id: 2,
+            cor: 'success',
+            produto: 'Produto 2',
+            descricao: 'Descubra como transformar o TDAH de desafio em potencial - aprenda a direcionar essa mente única para alcançar resultados extraordinários! Clique e comece sua jornada de transformação agora',
+            nomeBotao: 'Conferir →',
+            link: 'https://dhumano.com.br/',
         }
     ];
     return (
         <section id="produtos" className="py-5">
             <Container>
-                <h2 className='text-center'>Seus Produtos</h2>
+                <h2 className='text-center'>DESTAQUES</h2>
                 <Row className="g-4">
                     {produtos.map((produto) => (
                         <Col key={produto.id} className="col-12 col-md-6 col-sm-6 col-lg-3 mb-4">
